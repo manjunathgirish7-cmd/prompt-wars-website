@@ -1,0 +1,147 @@
+[
+  {
+    "token": "tok-session-1789112626946",
+    "userId": "usr-a-1789112626945",
+    "session": {
+      "id": "sess-a-1",
+      "device": "Chrome / macOS",
+      "ip": "127.0.0.1",
+      "location": "Bengaluru, KA, India",
+      "trusted": true,
+      "lastActive": "Just now"
+    },
+    "createdAt": "2026-09-11T07:43:46.946Z",
+    "expiresAt": "2026-10-11T07:43:46.946Z"
+  },
+  {
+    "token": "token-usr-1789112745275-a29e9d-d4a1fa76dcfa946038955af521c227e8310a218511a43ed0",
+    "userId": "usr-1789112745275-a29e9d",
+    "session": {
+      "id": "sess-1789112745275",
+      "deviceId": "dev-6e6f64653132",
+      "device": "Personal Computer (Desktop / Mobile Device)",
+      "deviceName": "Personal Computer",
+      "browser": "Modern Web Browser",
+      "os": "Desktop / Mobile Device",
+      "deviceType": "desktop",
+      "location": "Bengaluru, KA, India",
+      "ip": "127.0.0.1",
+      "current": true,
+      "trusted": true,
+      "trustedUntil": "2026-10-11T07:45:45.275Z",
+      "createdAt": "2026-09-11T07:45:45.275Z",
+      "lastActive": "Just now"
+    },
+    "createdAt": "2026-09-11T07:45:45.275Z",
+    "expiresAt": "2026-10-11T07:45:45.275Z"
+  },
+  {
+    "token": "token-usr-1789112745275-a29e9d-75de5663eb52ee451ee53665b0aa9598ee003d9e72d28229",
+    "userId": "usr-1789112745275-a29e9d",
+    "session": {
+      "id": "sess-1789112745296",
+      "deviceId": "dev-6e6f64653132",
+      "device": "Personal Computer (Desktop / Mobile Device)",
+      "deviceName": "Personal Computer",
+      "browser": "Modern Web Browser",
+      "os": "Desktop / Mobile Device",
+      "deviceType": "desktop",
+      "location": "Bengaluru, KA, India",
+      "ip": "127.0.0.1",
+      "current": true,
+      "trusted": true,
+      "trustedUntil": "2026-10-11T07:45:45.296Z",
+      "createdAt": "2026-09-11T07:45:45.296Z",
+      "lastActive": "Just now"
+    },
+    "createdAt": "2026-09-11T07:45:45.296Z",
+    "expiresAt": "2026-10-11T07:45:45.296Z"
+  },
+  {
+    "token": "token-usr-1789112760910-4316d3-985cd3d2fd00abe85297c27da6672a6926005fae5d2810cb",
+    "userId": "usr-1789112760910-4316d3",
+    "session": {
+      "id": "sess-1789112760910",
+      "deviceId": "dev-6e6f64653132",
+      "device": "Personal Computer (Desktop / Mobile Device)",
+      "deviceName": "Personal Computer",
+      "browser": "Modern Web Browser",
+      "os": "Desktop / Mobile Device",
+      "deviceType": "desktop",
+      "location": "Bengaluru, KA, India",
+      "ip": "127.0.0.1",
+      "current": true,
+      "trusted": true,
+      "trustedUntil": "2026-10-11T07:46:00.910Z",
+      "createdAt": "2026-09-11T07:46:00.910Z",
+      "lastActive": "Just now"
+    },
+    "createdAt": "2026-09-11T07:46:00.911Z",
+    "expiresAt": "2026-10-11T07:46:00.911Z"
+  },
+  {
+    "token": "token-usr-1789112760910-4316d3-895abf3944b8dcd570460fb1be1bb0efaffe06eeac382c33",
+    "userId": "usr-1789112760910-4316d3",
+    "session": {
+      "id": "sess-1789112760929",
+      "deviceId": "dev-6e6f64653132",
+      "device": "Personal Computer (Desktop / Mobile Device)",
+      "deviceName": "Personal Computer",
+      "browser": "Modern Web Browser",
+      "os": "Desktop / Mobile Device",
+      "deviceType": "desktop",
+      "location": "Bengaluru, KA, India",
+      "ip": "127.0.0.1",
+      "current": true,
+      "trusted": true,
+      "trustedUntil": "2026-10-11T07:46:00.929Z",
+      "createdAt": "2026-09-11T07:46:00.929Z",
+      "lastActive": "Just now"
+    },
+    "createdAt": "2026-09-11T07:46:00.929Z",
+    "expiresAt": "2026-10-11T07:46:00.929Z"
+  },
+  {
+    "token": "token-usr-1789112760910-4316d3-11ebce118e96373ff9a48a1ec78e77714b04121d62b69d69",
+    "userId": "usr-1789112760910-4316d3",
+    "session": {
+      "id": "sess-1789112761020",
+      "deviceId": "dev-6e6f64653132",
+      "device": "Personal Computer (Desktop / Mobile Device)",
+      "deviceName": "Personal Computer",
+      "browser": "Modern Web Browser",
+      "os": "Desktop / Mobile Device",
+      "deviceType": "desktop",
+      "location": "Bengaluru, KA, India",
+      "ip": "127.0.0.1",
+      "current": true,
+      "trusted": true,
+      "trustedUntil": "2026-10-11T07:46:01.020Z",
+      "createdAt": "2026-09-11T07:46:01.020Z",
+      "lastActive": "Just now"
+    },
+    "createdAt": "2026-09-11T07:46:01.020Z",
+    "expiresAt": "2026-10-11T07:46:01.020Z"
+  },
+  {
+    "token": "token-usr-1789112760910-4316d3-9b4084769a2a389384a4c9dfeaae6ffdcdb09116f8de7d5a",
+    "userId": "usr-1789112760910-4316d3",
+    "session": {
+      "id": "sess-1789112761032",
+      "deviceId": "dev-6e6f64653132",
+      "device": "Personal Computer (Desktop / Mobile Device)",
+      "deviceName": "Personal Computer",
+      "browser": "Modern Web Browser",
+      "os": "Desktop / Mobile Device",
+      "deviceType": "desktop",
+      "location": "Bengaluru, KA, India",
+      "ip": "127.0.0.1",
+      "current": true,
+      "trusted": false,
+      "createdAt": "2026-09-11T07:46:01.032Z",
+      "lastActive": "Just now"
+    },
+    "createdAt": "2026-09-11T07:46:01.033Z",
+    "expiresAt": "2026-10-11T07:46:01.033Z"
+  }
+]
