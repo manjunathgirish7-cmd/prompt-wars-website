@@ -610,8 +610,8 @@ export function getUserActivityLogs(userId: string): ActivityLogRecord[] {
   // Filter global store by userId
   const userLogs = activityLogsStore.filter(l => l.userId === userId);
 
-  // Sort newest first
-  return [...userLogs].sort((a, b) => new Date(b.timestamp).getTime() - new Date(a.timestamp).getTime());
+  // Sort newest first lexicographically
+  return [...userLogs].sort((a, b) => b.timestamp > a.timestamp ? 1 : (b.timestamp < a.timestamp ? -1 : 0));
 }
 
 /**

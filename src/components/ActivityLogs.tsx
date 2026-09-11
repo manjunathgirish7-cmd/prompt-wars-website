@@ -127,14 +127,26 @@ export const ActivityLogs: React.FC<ActivityLogsProps> = ({
 
   // Compute counts
   const counts = useMemo(() => {
+    let login_attempt = 0, account_modification = 0, session_device = 0, security_warning = 0, ai_activity = 0, civic_action = 0;
+    
+    for (let i = 0; i < categorizedLogs.length; i++) {
+      const l = categorizedLogs[i];
+      if (l.category === 'login_attempt') login_attempt++;
+      if (l.category === 'account_modification') account_modification++;
+      if (l.category === 'session_device') session_device++;
+      if (l.category === 'security_warning' || l.status === 'critical' || l.status === 'warning') security_warning++;
+      if (l.category === 'ai_activity' || l.type === 'ai_analysis' || l.type === 'complaint_generated') ai_activity++;
+      if (l.category === 'civic_action' || l.type === 'feedback_submitted') civic_action++;
+    }
+
     return {
       all: categorizedLogs.length,
-      login_attempt: categorizedLogs.filter(l => l.category === 'login_attempt').length,
-      account_modification: categorizedLogs.filter(l => l.category === 'account_modification').length,
-      session_device: categorizedLogs.filter(l => l.category === 'session_device').length,
-      security_warning: categorizedLogs.filter(l => l.category === 'security_warning' || l.status === 'critical' || l.status === 'warning').length,
-      ai_activity: categorizedLogs.filter(l => l.category === 'ai_activity' || l.type === 'ai_analysis' || l.type === 'complaint_generated').length,
-      civic_action: categorizedLogs.filter(l => l.category === 'civic_action' || l.type === 'feedback_submitted').length
+      login_attempt,
+      account_modification,
+      session_device,
+      security_warning,
+      ai_activity,
+      civic_action
     };
   }, [categorizedLogs]);
 
